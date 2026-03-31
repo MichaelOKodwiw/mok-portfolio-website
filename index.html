@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOK Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <header class="header"> 
+        <div class="container">
+            <nav class="nav">
+                 <a href="#" class="logo">MK</a>
+
+                 <input type="checkbox" id="menu-toggle">
+                 <label for="menu-toggle" class="menu-icon">
+                    ☰
+                </label>
+                 <ul class="nav-links">
+                     <li><a href="#about">About</a></li>
+                     <li><a href="#projects">Projects</a></li>
+                     <li><a href="#contact">Contact</a></li>
+                 </ul>   
+            </nav>
+        </div>
+    </header>
+
+   <main>
+     <section class="hero">
+        <div class= "container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hello I'm Michael</h1>
+                    <h2>Frontend Developer</h2>
+                    <p>I build responsive and accessible web applications!</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn primary">View Projects</a>
+                        <a href="#contact" class="btn secondary">Contact Me</a>
+                    </div>
+
+                </div>
+                <div class="hero-image">
+                    <img src="images/MichaelOK.jpg" alt="Michael Kodwiw">
+                </div>
+            </div>
+        </div>
+     </section>
+     <section id="about" class="about">
+        <div class= "container">
+            <h2>About Me</h2>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a frontend developer focused on building clean, responsive,
+                        and user-friendly websites. I enjoy turning ideas into real,
+                        functional products using modern web technologies.
+                    </p>
+
+                    <p>
+                        I'm currently improving skills in HTML, CSS, and JavaScript and working on projects to strengthen my portfolio.
+                    </p>
+                </div>
+                <div class="about-skills">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript (learning)</li>
+                    </ul>
+                </div>
+            </div>
+     </section>
+            
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+
+        <div class="project-grid">
+              <div class="project-card">
+                <img src="images/Project 1.png" alt="Screenshot of portfolio website">
+                <h3>Portfolio Website</h3>
+                <p>
+                    A responsive personal portfolio website built using HTML and CSS.
+                    Designed to showcase my projects and skills.
+                </p>
+                <a href="#">View Project</a>
+              </div>
+            </div>
+        </div>
+    </section>
+
+
+<section id="contact" class="contact">
+    <div class="container">
+        <h2>Contact Me</h2>
+
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" required></textarea>
+            </div>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+</main>
+
+<footer class="footer">
+
+<a href="https://github.com/MichaelOKodwiw" target="_blank" class="btn secondary">
+    GitHub
+</a>
+
+    <div class="container">
+        <p>© 2026 MichaelOKodwiw. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
